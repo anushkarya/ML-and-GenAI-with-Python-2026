@@ -1,0 +1,66 @@
+#area of rectangle
+length = 10
+breadth = 59
+area = length*breadth
+
+print("Area of rectangle is: ",area)
+
+#simple interest
+
+P=100 #principle amount
+R=2 # rate in percentage
+T=2 #time in years
+SI=(P*R*T)/100
+print("Simple interest calculated is:",SI)
+
+#convert celsius to fahreneit
+C = 48
+F = (9/5)*T_c+3
+print("The temp in fahreneit is: ",F)
+
+#Calculate average of 3 numbers
+num = 4,7,295
+avg=(4+7+295)/3
+print("The average of 3 numbers is: ", avg)
+
+#Find square and cube of a number. 
+num = int(input("Enter a number: "))
+square = num ** 2
+cube = num ** 3
+print("Square =", square)
+print("Cube =", cube)
+
+#swap two numbers without third variable
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+a, b = b, a
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+
+# Student Report Program
+
+# Input student details
+name = input("Enter student name: ")
+roll_no = input("Enter roll number: ")
+
+# Input marks
+mark1 = float(input("Enter marks of Subject 1: "))
+mark2 = float(input("Enter marks of Subject 2: "))
+mark3 = float(input("Enter marks of Subject 3: "))
+
+# Calculate total marks
+total = mark1 + mark2 + mark3
+
+# Calculate percentage
+percentage = total / 3
+
+# Display report
+print("\n----- STUDENT REPORT -----")
+print("Name:", name)
+print("Roll Number:", roll_no)
+print("Subject 1 Marks:", mark1)
+print("Subject 2 Marks:", mark2)
+print("Subject 3 Marks:", mark3)
+print("Total Marks:", total)
+print("Percentage:", percentage, "%")
